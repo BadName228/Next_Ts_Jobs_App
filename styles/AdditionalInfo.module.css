@@ -1,0 +1,58 @@
+#AdditionalInfo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.h1 {
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 0.413333px;
+  color: #3a4562;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-bottom: 10px;
+}
+.h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #3a4562;
+  font-stretch: 100;
+}
+.grid_container {
+  height: 70px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid_item1 {
+  width: 220px;
+  text-align: center;
+  height: 49px;
+  border-radius: 8px;
+  background: rgba(161, 177, 219, 0.317343);
+  border: 1px solid rgba(85, 105, 158, 0.3);
+  color: #55699e;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 15px;
+}
+.grid_item2 {
+  width: 220px;
+  text-align: center;
+  height: 49px;
+  border-radius: 8px;
+  background: rgba(255, 207, 0, 0.15);
+  border: 1px solid #ffcf00;
+  color: #988b49;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 15px;
+}

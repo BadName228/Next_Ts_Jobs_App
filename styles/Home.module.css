@@ -1,0 +1,12 @@
+#app {
+  margin: 0 auto;
+  width: 1400px;
+}
+.main {
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 29px;
+  padding-bottom: 64px;
+  background-color: rgb(224, 227, 238);
+  margin: 0 auto;
+}

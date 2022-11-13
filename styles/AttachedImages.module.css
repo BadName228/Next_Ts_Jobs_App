@@ -1,0 +1,25 @@
+.AttachedImages {
+  width: 100%;
+  height: 400px;
+}
+.h1 {
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.413333px;
+  color: #3a4562;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.grid_container {
+  height: 300px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid_item {
+  border-radius: 8px;
+}

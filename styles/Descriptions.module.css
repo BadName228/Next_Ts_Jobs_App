@@ -1,0 +1,51 @@
+.idAndsalary {
+  height: auto;
+  width: 100%;
+}
+.title {
+  width: 480px;
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.75px;
+  color: #3a4562;
+}
+.flex {
+  width: 100%;
+  display: inline-flex;
+}
+.float {
+  margin-left: 65px;
+  float: right;
+  width: 175px;
+}
+.h2 {
+  font-size: 22px;
+  color: #3a4562;
+  font-family: "Proxima Nova Bold";
+}
+.p {
+  color: #3a4562;
+  font-size: 18px;
+}
+.jobDescription {
+  margin-top: 10px;
+  font-family: "Proxima Nova Regular";
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5625px;
+  color: #3a4562;
+}
+.h22 {
+  font-size: 22px;
+  color: #3a4562;
+  font-family: "Proxima Nova Bold";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ul {
+  list-style-image: url(./image/square.png);
+}

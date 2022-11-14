@@ -4,11 +4,10 @@ import { Pagination } from "antd";
 
 type Props = {
   size: number;
-  page: number;
   setpage: any
 };
 
-const Paginations = ({ size, page, setpage }: Props) => {
+const Paginations = ({ size, setpage }: Props) => {
   const selectPage = (e: number): void => {
     setpage(e);
   };

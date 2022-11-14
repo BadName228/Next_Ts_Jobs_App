@@ -39,7 +39,9 @@ const Card = ({ data }: Props) => {
   const AddToFavourite = (): void => {
     alert("Add to Fav");
   };
-
+  if (data.id === "breakResponse") {
+    return <h1>Failure load Data</h1>
+  }
   return (
     <Link
       href={{
